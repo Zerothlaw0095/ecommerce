@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My E-commerce Website</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="prod">
+
+<header>
+  <h1>Welcome to My E-commerce Website</h1>
+</header>
+
+<nav>
+  <a href="#clothes">Clothes</a>
+  <a href="#smart-accessories">Smart Accessories</a>
+  <a href="#food">Food</a>
+  <a href="index.html">Home</a> 
+</nav>
+<div class="container" id="about" style="max-width: 1300px;">
+    <div class="category">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <p>Welcome to our vibrant e-commerce platform, where shopping meets innovation! At our store, we're passionate about delivering exceptional products and an unforgettable shopping experience.</p>
+        <p>Explore our diverse selection of carefully curated items, ranging from stylish clothing and cutting-edge smart accessories to delectable gourmet foods. With each product handpicked for quality and style, we strive to exceed your expectations at every turn.</p>
+        <p>Driven by the latest technologies in web design, our platform offers seamless navigation and intuitive features, ensuring that you find exactly what you're looking for with ease.</p>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container" id="clothes">
+  <div class="category">
+    <h2>Clothes</h2>
+    <div class="product">
+      <!-- Add clothes products dynamically -->
+      <div class="item">
+        <img src="Assets/jeans.png" alt="Clothes 1">
+        <h3>Jeans</h3>
+        <p>₹2999</p>
+      </div>
+      <div class="item">
+        <img src="Assets/shirts.png" alt="Clothes 2">
+        <h3>Formal Shirt</h3>
+        <p>₹ 2999</p>
+      </div>
+      <div class="item">
+        <img src="Assets/sports.png" alt="Clothes 3">
+        <h3>Sportswear</h3>
+        <p>₹ 3999</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="smart-accessories">
+  <div class="category">
+    <h2>Smart Accessories</h2>
+    <div class="product">
+      <div class="item">
+        <img src="Assets/smartwatch.png" alt="Smart Accessories 1">
+        <h3>Smart Watch</h3>
+        <p>₹ 9999</p>
+      </div>
+      <div class="item">
+        <img src="Assets/earbuds.png" alt="Smart Accessories 2">
+        <h3>Wireless Earbuds</h3>
+        <p>₹ 7999</p>
+      </div>
+      <div class="item">
+        <img src="Assets/speaker.png" alt="Smart Accessories 3">
+        <h3>Bluetooth Speaker</h3>
+        <p>₹ 5999</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="food">
+  <div class="category">
+    <h2>Food</h2>
+    <div class="product">
+      <div class="item">
+        <img src="Assets/fruit.png" alt="Food 1">
+        <h3>Fresh Fruits Basket</h3>
+        <p>₹ 1999</p>
+      </div>
+      <div class="item">
+        <img src="Assets/healthy.png" alt="Food 2">
+        <h3>Healthy Snacks Pack</h3>
+        <p>₹ 1499</p>
+      </div>
+      <div class="item">
+        <img src="Assets/veg.png" alt="Food 3">
+        <h3>Organic Vegetables Box</h3>
+        <p>₹ 2499</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="goback-btn">
+  <button onclick="goBack()">Go Back</button>
+</div>
+
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+
+</body>
+</html>
